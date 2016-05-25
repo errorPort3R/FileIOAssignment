@@ -62,7 +62,7 @@ public class Room
 
     @Override
     public String toString() {
-        return String.format("Room{\nlength = %f\nheight = %f\nwidth = %f\nwallColor = %s\nfloorCovering = %s\nceilingType = %s\n}"
+        return String.format("Room\n{\n\tlength = %f\n\theight = %f\n\twidth = %f\n\twallColor = %s\n\tfloorCovering = %s\n\tceilingType = %s\n}"
                 ,length, height, width, wallColor, floorCovering, ceilingType);
     }
 }
